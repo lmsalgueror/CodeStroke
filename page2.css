@@ -1,0 +1,94 @@
+html,
+body {
+    display: inline-block;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 600px;
+}
+
+
+/*Clock*/
+
+#clock {
+    width: 300px;
+    background-color: #92B4EC;
+    color: #222831;
+    display: inline-block;
+    margin: 20px 0;
+    line-height: 5px;
+    border-radius: 10px;
+}
+
+
+/*Cards*/
+
+#cards {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 20px;
+    padding: 0px 80px;
+}
+
+.card-el {
+    background-color: #222831;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.card-el:hover {
+    border: 5px solid #FFD24C;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    margin-top: 10px;
+}
+
+
+/*Text*/
+
+h2 {
+    color: #92B4EC
+}
+
+h3 {
+    color: #FFD24C
+}
+
+#time {
+    font-size: 40px;
+}
+
+
+/*Button*/
+
+.Btns {
+    width: 150px;
+    height: 30px;
+    background-color: #FFD24C;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 0 0 0;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn-text {
+    text-decoration: none;
+    color: #222831;
+}

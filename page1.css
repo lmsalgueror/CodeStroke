@@ -1,0 +1,94 @@
+html,
+body {
+    display: inline-block;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 600px;
+}
+
+#clock {
+    width: 300px;
+    background-color: #92B4EC;
+    color: #222831;
+    display: inline-block;
+    margin: 20px 0;
+    line-height: 5px;
+    border-radius: 10px;
+}
+
+#case-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-el {
+    margin: 10px 0;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    border: solid #222831 2px;
+}
+
+#info-patient {
+    margin-top: 50px;
+}
+
+img {
+    width: 600px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#nihsslabel:hover {
+    color: #FFD24C
+}
+
+
+/*Buttons*/
+
+#btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#close-btn,
+.Btns {
+    width: 150px;
+    height: 30px;
+    background-color: #FFD24C;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 0 0 0;
+}
+
+.btn-text {
+    text-decoration: none;
+    color: #222831;
+}
+
+
+/*Modal*/
+
+#overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#modal {
+    display: inline-block;
+    width: 700px;
+    padding: 10px 0;
+    background-color: white;
+    border: 3px solid #222831;
+    border-radius: 20px;
+}

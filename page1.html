@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Code Stroke</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+
+<body>
+
+    <div id="overlay">
+        <div class="container">
+            <div id="modal">
+                <img src="img/nihss.png">
+                <button id="close-btn">Cerrar</button>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="stopwatch">
+        <div class="container">
+            <div id="clock">
+                <h1>Time</h1>
+                <h1 id="time">00:00</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="info-patient">
+        <div class="container">
+            <section id="case-info">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" class="input-el">
+
+                <label for="idnumber">CC</label>
+                <input type="text" id="idnumber" name="idnumber" class="input-el">
+
+                <label for="time">Tiempo inicio síntomas (horas)</label>
+                <input type="text" id="time" name="time" class="input-el">
+
+                <label for="NIHSS" id="nihsslabel">NIHSS</label>
+                <input type="text" id="NIHSS" name="NIHSS" class="input-el">
+
+                <section id="btn-container">
+                    <div class="Btns">
+                        <a href="index.html" class="btn-text">Back</a>
+                    </div>
+                    <div class="Btns">
+                        <a href="page2.html" class="btn-text">Next</a>
+                    </div>
+                </section>
+
+            </section>
+
+
+        </div>
+
+
+    </section>
+    <script src="page1.js"></script>
+</body>

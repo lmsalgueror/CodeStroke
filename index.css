@@ -1,0 +1,62 @@
+html,
+body {
+    display: inline-block;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 600px;
+}
+
+#content {
+    margin: 100px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    margin: 100px 0;
+}
+
+
+/*Buttons*/
+
+#activate-btn {
+    width: 200px;
+    height: 200px;
+    background-color: #92B4EC;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#text-act-btn {
+    text-decoration: none;
+    padding: 22px 0;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    line-height: 6px;
+    color: snow;
+}
+
+#search-btn {
+    width: 200px;
+    height: 200px;
+    background-color: #FFD24C;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#text-search-btn {
+    text-decoration: none;
+    padding: 36px 0;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    line-height: 6px;
+    color: snow;
+}
